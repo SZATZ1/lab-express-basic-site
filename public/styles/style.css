@@ -1,13 +1,58 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  nav{
-    background-color: #DBD5FB;
-  }
-
-  body{
-    margin: 0
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
 }
+
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #B7B9FA;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  color: rgb(49, 48, 48);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: #A49AF7;
+}
+
+.menu a.active{
+  float: right;
+}
+
+.works {
+  font-weight: 600;
+}
+
+.works li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+p {
+  text-align: center;
+}
+  
