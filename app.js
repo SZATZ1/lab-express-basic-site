@@ -12,7 +12,7 @@ app.get("/work", (request, response, next) => {
     response.sendFile(__dirname + '/views/work.html')
 });
 
-app.get("/home",(request, response, next) => {
+app.get("/",(request, response, next) => {
     response.sendFile(__dirname + '/views/home.html')
 });
 
